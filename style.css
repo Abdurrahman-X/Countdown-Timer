@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./mountain.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;;
+}
+
+
+.conntainer{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.logo img{
+    opacity: 1;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+
+span{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
